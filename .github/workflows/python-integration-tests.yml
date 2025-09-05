@@ -10,8 +10,8 @@ on:
     branches: ["main"]
   merge_group:
     branches: ["main"]
-  schedule:
-    - cron: "0 0 * * *" # Run at midnight UTC daily
+  #schedule:
+  #  - cron: "0 0 * * *" # Run at midnight UTC daily
 
 permissions:
   contents: read
